@@ -1,0 +1,22 @@
+{
+  "name": "lambda-sass-compiler",
+  "version": "1.0.0",
+  "description": "Lambda function for compiling sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda",
+    "aws"
+  ],
+  "engines": {
+    "node": "6.10"
+  },
+  "author": "taylorackley@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "sass-template-factory": "^0.9.1"
+  }
+}
